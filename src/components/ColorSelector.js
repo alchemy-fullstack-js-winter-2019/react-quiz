@@ -13,7 +13,7 @@ export default function ColorSelector({ backgroundColor, titleColor, updateInput
 }
 
 ColorSelector.propTypes = {
-  backgroundColor: PropTypes.string.isRequired,
-  titleColor: PropTypes.string.isRequired,
-  updateInput: PropTypes.func.isRequired
+  backgroundColor: PropTypes.string,
+  titleColor: PropTypes.string,
+  updateInput: PropTypes.func
 };

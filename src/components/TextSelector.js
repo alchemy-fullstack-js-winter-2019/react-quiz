@@ -11,6 +11,6 @@ export default function TextSelector({ title, updateInput }) {
 }
 
 TextSelector.propTypes = {
-  title: PropTypes.string.isRequired,
-  updateInput: PropTypes.func.isRequired
+  title: PropTypes.string,
+  updateInput: PropTypes.func
 };

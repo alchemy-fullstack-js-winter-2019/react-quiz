@@ -32,7 +32,6 @@ class MyClass extends PureComponent {
             backgroundColor={backgroundColor}
             updateInput={this.updateInput}
           />
-
         </div>
 
         <Shapes

@@ -10,7 +10,7 @@ export default function Shape({ title, backgroundColor, titleColor }) {
 }
 
 Shape.propTypes = {
-  title: PropTypes.string.isRequired,
-  backgroundColor: PropTypes.string.isRequired,
-  titleColor: PropTypes.string.isRequired
+  title: PropTypes.string,
+  backgroundColor: PropTypes.string,
+  titleColor: PropTypes.string
 };
