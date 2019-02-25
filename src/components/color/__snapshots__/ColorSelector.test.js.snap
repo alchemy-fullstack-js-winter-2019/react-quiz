@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorSelector matches a snapshot 1`] = `
+<form>
+  <label>
+    <span>
+      Font Color:
+    </span>
+    <input
+      name="fontColor"
+      type="color"
+    />
+  </label>
+  <label>
+    <span>
+      Background Color:
+    </span>
+    <input
+      name="backgroundColor"
+      type="color"
+    />
+  </label>
+</form>
+`;

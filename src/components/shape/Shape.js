@@ -11,6 +11,7 @@ function Shape({ text, fontColor, backgroundColor, handleChange }) {
         handleChange={handleChange}
         text={text}
       />
+      
       <ColorSelector 
         fontColor={fontColor}
         backgroundColor={backgroundColor}
