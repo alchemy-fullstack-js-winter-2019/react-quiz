@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import Shape from './Shape';
 
 
-describe('Search Test', () => {
+describe('Shape Test', () => {
     it('matches a snapshot', () => {
         const tree = renderer.create(
             <Shape 

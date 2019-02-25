@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Search Test matches a snapshot 1`] = `
+exports[`ColorSelector Test matches a snapshot 1`] = `
 Array [
   <label>
     FONT COLOR

@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import ColorSelector from './ColorSelector';
 
 
-describe('Search Test', () => {
+describe('ColorSelector Test', () => {
     it('matches a snapshot', () => {
         const tree = renderer.create(
             <ColorSelector handleChange={() => {}}/>

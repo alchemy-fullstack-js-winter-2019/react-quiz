@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import TextSelector from './TextSelector';
 
 
-describe('Search Test', () => {
+describe('TextSelector Test', () => {
     it('matches a snapshot', () => {
         const tree = renderer.create(
             <TextSelector handleChange={() => {}}/>
