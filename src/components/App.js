@@ -23,6 +23,7 @@ export default class App extends PureComponent {
           text={text}
           fontColor={fontColor}
           backgroundColor={backgroundColor}
+          handleChange={this.handleChange}
         />
       </Fragment>
     );

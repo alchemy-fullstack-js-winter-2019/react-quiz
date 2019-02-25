@@ -1,31 +1,31 @@
-import React, { Fragment, PureComponent } from 'react';
+import React, { Fragment } from 'react';
+import PropTypes from 'prop-types';
 import TextSelector from '../text/TextSelector';
 import ColorSelector from '../color/ColorSelector';
 
-export default class Shape extends PureComponent {
-  // state = {
-  //   text: '', 
-  //   fontColor: '',
-  //   backgroundColor: ''
-  // };
+function Shape({ text, fontColor, backgroundColor, handleChange }) {
+  return (
+    <Fragment>
+      <TextSelector
+        handleChange={handleChange}
+        text={text}
+      />
+      <ColorSelector 
+        fontColor={fontColor}
+        backgroundColor={backgroundColor}
+        handleChange={handleChange}
+      />
 
-  // handleChange = ({ target }) => {
-  //   this.setState({ [target.name]: target.value });
-  // };
-
-  render() {
-    const { text, fontColor, backgroundColor } = this.state;
-    return (
-      <Fragment>
-        <TextSelector
-          handleChange={this.handleChange}
-          text={text}
-        />
-        <ColorSelector 
-          fontColor={fontColor}
-          backgroundColor={backgroundColor}
-        />
-      </Fragment>
-    );
-  }
+      <h2>{text}</h2>
+    </Fragment>
+  );
 }
+
+Shape.propTypes = {
+  handleChange: PropTypes.func.isRequired,
+  text: PropTypes.string.isRequired,
+  fontColor: PropTypes.string.isRequired,
+  backgroundColor: PropTypes.string.isRequired
+};
+
+export default Shape;
