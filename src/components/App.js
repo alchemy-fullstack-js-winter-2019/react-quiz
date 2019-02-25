@@ -1,16 +1,22 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
-
+import TextInput from './TextInput';
 
 class App extends PureComponent {
-    
-  render(){
-    return (
-      <h1>Hi</h1>
-    );
-  }
-    
-}
+    state = {
+      text: ''
+    };
+    handleChange = ({ target }) => {
+      this.setState({ [target.name]: target.value });
+    };
 
+    render(){
+      return (
+        <>
+          <h1>Hi</h1>
+          <TextInput handleChange={this.handleChange}/>
+        </>
+      );
+    } 
+}
 
 export default App;
