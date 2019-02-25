@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Color matches a snapshot 1`] = `
+<input
+  color={
+    Object {
+      "color": "#000000",
+    }
+  }
+  name="color"
+  placeholder="color"
+  type="color"
+/>
+`;
