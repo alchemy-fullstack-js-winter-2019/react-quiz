@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function TextSelector({ text, onChange }) {
   return (
-    <input name="text" text={text} type="text" onChange={onChange} /> 
+    <input name="text" text={text} type="text" onChange={onChange} placeholder="text"/> 
   );
 }
 
