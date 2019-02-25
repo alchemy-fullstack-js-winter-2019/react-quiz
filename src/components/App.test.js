@@ -9,5 +9,5 @@ describe('App', () => {
     ).toJSON();
 
     expect(tree).toMatchSnapshot();
-  })
-})
+  });
+});
