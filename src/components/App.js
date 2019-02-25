@@ -9,7 +9,7 @@ export default class App extends Component {
     text: '',
     color: '',
     //shape = ''
-  }
+  };
 
 handleChange = ({ target }) => {
   this.setState({ [target.name]: target.value }, () => {
@@ -23,9 +23,9 @@ render() {
       <div>
         <h1>TextEditor</h1>
         <Controls
-        text={text} 
-        color={color}
-        onChange={this.handleChange} />
+          text={text} 
+          color={color}
+          onChange={this.handleChange} />
       </div>
     </>
   );
