@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import TextSelector from '../text/TextSelector';
 import ColorSelector from '../color/ColorSelector';
+import styles from '../../css/App.css';
 
 function Shape({ text, fontColor, backgroundColor, handleChange }) {
   return (
@@ -16,7 +17,9 @@ function Shape({ text, fontColor, backgroundColor, handleChange }) {
         handleChange={handleChange}
       />
 
-      <h2>{text}</h2>
+      <div className={styles.container} style={{ backgroundColor: backgroundColor }}>
+        <h2 style={{ color: fontColor }} className={styles.header}>{text}</h2>
+      </div>
     </Fragment>
   );
 }
