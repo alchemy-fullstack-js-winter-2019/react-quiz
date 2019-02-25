@@ -1,11 +1,11 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import ColorSelector from './ColorSelector';
+import TextSelector from './TextSelector';
 
 describe('Color', () => {
   it('matches a snapshot', () => {
     const tree = renderer.create(
-      <ColorSelector color="#00000" />
+      <TextSelector text="hello" />
     ).toJSON();
 
     expect(tree).toMatchSnapshot();

@@ -2,9 +2,9 @@
 
 exports[`Color matches a snapshot 1`] = `
 <input
-  color="#00000"
-  name="color"
-  placeholder="color"
-  type="color"
+  name="text"
+  placeholder="text"
+  text="hello"
+  type="text"
 />
 `;
