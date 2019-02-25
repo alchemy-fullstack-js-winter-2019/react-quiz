@@ -2,11 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Display({ text, color }) {
-  const style = { color: color };
+  const style = { backgroundColor: color };
   return (
     <>
-        <div>
-          <h2 style={style}>{text}</h2>
+        <div style={style}>
+          <h2>{text}</h2>
         </div>
     </>
   );
