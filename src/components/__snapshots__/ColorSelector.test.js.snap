@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Test matches a snapshot 1`] = `
+Array [
+  <label>
+    FONT COLOR
+    <input
+      name="FontColor"
+      onChange={[Function]}
+      type="color"
+    />
+  </label>,
+  <label>
+    BACKGROUND COLOR
+    <input
+      name="BackgroundColor"
+      onChange={[Function]}
+      type="color"
+    />
+  </label>,
+]
+`;

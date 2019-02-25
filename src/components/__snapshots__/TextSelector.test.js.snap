@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Test matches a snapshot 1`] = `
+<label>
+  IMAGE TEXT
+  <input
+    name="ImageText"
+    onChange={[Function]}
+    type="text"
+  />
+</label>
+`;

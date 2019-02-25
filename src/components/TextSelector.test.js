@@ -1,12 +1,12 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import ColorSelector from './ColorSelector';
+import TextSelector from './TextSelector';
 
 
 describe('Search Test', () => {
     it('matches a snapshot', () => {
         const tree = renderer.create(
-            <ColorSelector handleChange={() => {}}/>
+            <TextSelector handleChange={() => {}}/>
         ).toJSON();
 
         expect(tree).toMatchSnapshot();
