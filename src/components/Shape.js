@@ -8,7 +8,6 @@ function Shape({ FontColor, BackgroundColor, ImageText }) {
 
         <div style={{ width: '100px', height: '100px', background: BackgroundColor, color: FontColor  }}>
             {ImageText}
-        
         </div>  
     );
 }
