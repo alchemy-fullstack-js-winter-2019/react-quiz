@@ -2,7 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Display({ text, color }) {
-  const style = { backgroundColor: color };
+  const style = { 
+    backgroundColor: color,
+    width: 300,
+    height: 300
+  };
   return (
     <>
         <div style={style}>
@@ -11,7 +15,6 @@ function Display({ text, color }) {
     </>
   );
 }
-
 
 Display.propTypes = {
   text: PropTypes.string,
