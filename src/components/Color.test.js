@@ -1,11 +1,11 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import App from './App';
+import Color from './Color';
 
-describe('App', () => {
+describe('Color', () => {
   it('matches a snapshot', () => {
     const tree = renderer.create(
-      <App />
+      <Color />
     ).toJSON();
 
     expect(tree).toMatchSnapshot();

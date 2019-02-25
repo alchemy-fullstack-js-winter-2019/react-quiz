@@ -1,11 +1,11 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import App from './App';
+import Display from './Display';
 
-describe('App', () => {
+describe('Display', () => {
   it('matches a snapshot', () => {
     const tree = renderer.create(
-      <App />
+      <Display />
     ).toJSON();
 
     expect(tree).toMatchSnapshot();

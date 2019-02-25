@@ -1,11 +1,11 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import App from './App';
+import TextInput from './TextInput';
 
-describe('App', () => {
+describe('TextInput', () => {
   it('matches a snapshot', () => {
     const tree = renderer.create(
-      <App />
+      <TextInput />
     ).toJSON();
 
     expect(tree).toMatchSnapshot();

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display matches a snapshot 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": undefined,
+      "height": 300,
+      "width": 300,
+    }
+  }
+>
+  <h2 />
+</div>
+`;
