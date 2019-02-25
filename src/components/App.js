@@ -7,18 +7,19 @@ import ColorSelector from './ColorSelector';
 export default class App extends Component {
   state = {
     text: '',
-    color: ''
+    color: '',
+    backgroundcolor: ''
   }
   handleChange = ({ target }) => {
     this.setState({ [target.name]: target.value })
   }
   render() {
-    const { text, color } = this.state;
+    const { text, color, backgroundcolor } = this.state;
     return ( 
       <>
       <TextSelector text={text} onChange={this.handleChange} />
-      <ColorSelector color={color} onChange={this.handleChange} />
-      <Shape color={color} text={text} />
+      <ColorSelector backgroundcolor={backgroundcolor} color={color} onChange={this.handleChange} />
+      <Shape backgroundcolor={backgroundcolor} color={color} text={text} />
       </>
     );
   }
