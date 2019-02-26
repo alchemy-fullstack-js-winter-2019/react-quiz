@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shape Test matches a snapshot 1`] = `
+<div
+  style={
+    Object {
+      "background": "white",
+      "color": "black",
+      "height": "100px",
+      "width": "100px",
+    }
+  }
+>
+  This is a string
+</div>
+`;
