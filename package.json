@@ -13,9 +13,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "normalize-css": "^2.3.1",
     "normalize.css": "^8.0.1",
     "react": "^16.8.2",
-    "react-dom": "^16.8.2"
+    "react-dom": "^16.8.2",
+    "react-test-renderer": "^16.8.3"
   },
   "devDependencies": {
     "@babel/core": "^7.3.3",
