@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Color matches a snapshot 1`] = `
+Array [
+  <h1>
+     Text 
+  </h1>,
+  <input
+    name="text"
+    placeholder="text"
+    text="hello"
+    type="text"
+  />,
+]
+`;

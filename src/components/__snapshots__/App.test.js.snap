@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App matches a snapshot 1`] = `
+Array [
+  <h1>
+     Text 
+  </h1>,
+  <input
+    name="text"
+    onChange={[Function]}
+    placeholder="text"
+    text=""
+    type="text"
+  />,
+  <h2>
+     Text Color
+  </h2>,
+  <input
+    color=""
+    name="color"
+    onChange={[Function]}
+    placeholder="color"
+    type="color"
+  />,
+  <h2>
+    background-color
+  </h2>,
+  <input
+    backgroundcolor=""
+    name="backgroundcolor"
+    onChange={[Function]}
+    placeholder="background-color"
+    type="color"
+  />,
+  <div
+    style={
+      Object {
+        "backgroundColor": "",
+      }
+    }
+  >
+    <h1
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    >
+       
+      
+    </h1>
+  </div>,
+]
+`;
